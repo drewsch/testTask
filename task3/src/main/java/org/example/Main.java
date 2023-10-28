@@ -13,11 +13,6 @@ import java.util.Objects;
 public class Main {
 
     public static void main(String[] args) {
-        if (args.length != 2) {
-            System.out.println("Usage: java ReportGenerator tests.json values.json");
-            return;
-        }
-
         String testsFile = args[0];
         String valuesFile = args[1];
 
